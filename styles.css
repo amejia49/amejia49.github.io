@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.home-left {
+  display:flex;
+  flex:1;
+  flex-grow:1;
+}
+
+.home-right {
+  display:flex;
+  background-color:#FFFFFF;
+  flex:3;
+  flex-direction: column;
+  justify-content:center
+}
+p {
+  font-family: Courier New,
+Lucida Console
+}
+.name {
+  margin-left: -70px;
+  margin-top: -200px;
+	font-family: "Arial Black", "Arial   Bold", Gadget, sans-serif;
+  font-size: 5em;
+}
